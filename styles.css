@@ -1,0 +1,93 @@
+body {
+background:url(bg.jpg) no-repeat 0 50% fixed;
+background-size:cover;
+}
+
+#container {
+/*background: rgba(203,203,203,1);
+border: 3px solid rgba(123,123,123,1);
+*/
+margin: 0 auto;
+width: 574px;
+height:456px;
+padding: 10px;
+text-align: center;
+overflow:hidden;
+}
+
+#container p {
+text-align:left;
+}
+
+#float_left {
+float:left;
+background: rgba(163,163,163,1);
+margin: 10px ;
+width: 245px;
+padding: 10px;
+border: 1px solid rgba(123,123,123,1);
+}
+
+#wizard {
+background:url(wizard.png) no-repeat 0 0;
+width:254px;
+height:450px;
+position:absolute;
+right:330px;
+bottom:50px;
+z-index:111;
+}
+
+#yeti {
+background:url(yeti.png) no-repeat 0 0;
+width:237px;
+height:300px;
+position:absolute;
+left:430px;
+bottom:50px;
+z-index:111;
+}
+
+#sword {
+background:url(sword.png) no-repeat 0 0;
+width:200px;
+height:200px;
+position:absolute;
+left:430px;
+bottom:80px;
+z-index:999;
+}
+
+
+#staff {
+background:url(staff.png) no-repeat 0 0;
+width:67px;
+height:459px;
+position:absolute;
+right:430px;
+bottom:70px;
+z-index:999;
+-moz-animation: staff 2s 1s; /* Firefox */
+-moz-transform: rotate(310deg); /* Firefox */
+}
+
+
+#float_right {
+float: right;
+background: rgba(193,193,193,1);
+margin: 10px;
+width: 245px;
+padding: 10px;
+border: 1px solid rgba(123,123,123,1);
+
+}
+
+
+
+@-moz-keyframes staff /* Firefox */
+{
+from {-moz-transform: rotate(30deg); /* Firefox */
+}
+to {-moz-transform: rotate(310deg); /* Firefox */
+}
+}
